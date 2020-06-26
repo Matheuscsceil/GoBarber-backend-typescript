@@ -16,3 +16,5 @@ yarn typeorm migration:revert
 
 yarn add bcryptjs
 yarn add @types/bcryptjs -D
+yarn add jsonwebtoken
+yarn add -D @types/jsonwebtoken
