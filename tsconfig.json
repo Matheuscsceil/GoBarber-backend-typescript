@@ -21,14 +21,17 @@
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "paths": {
-      "@repositories/*": [
-        "./src/repositories/*"
+      "@modules/*": [
+        "modules/*"
       ],
-      "@models/*": [
-        "./src/models/*"
-      ]
+      "@config/*": [
+        "config/*"
+      ],
+      "@shared/*": [
+        "shared/*"
+      ],
     }
   },
   "include": [
