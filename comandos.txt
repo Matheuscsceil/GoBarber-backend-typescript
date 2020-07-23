@@ -30,3 +30,9 @@ yarn add -D @types/cors
 yarn add -D tsconfig-paths
 
 yarn add tsyringe
+
+yarn add -D jest
+yarn jest --init
+yarn add -D ts-jest
+yarn add -D @types/jest
+yarn test
