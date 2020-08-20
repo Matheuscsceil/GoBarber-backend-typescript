@@ -36,3 +36,7 @@ yarn jest --init
 yarn add -D ts-jest
 yarn add -D @types/jest
 yarn test
+
+yarn add nodemailer
+yarn add -D @types/nodemailer
+yarn add handlebars
