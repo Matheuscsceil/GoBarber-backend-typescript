@@ -3,9 +3,6 @@ import {getDaysInMonth,getDate} from 'date-fns'
 
 import IAppointmentsRepository from '../repositories/IAppointmentsRepopsitory'
 
-import User from '@modules/users/infra/typeorm/entities/User'
-import { Index } from 'typeorm';
-
 interface IRequest {
   provider_id: string;
   month: number;
@@ -20,7 +17,7 @@ type IResponse = Array<{
 @injectable()
 class ListProviderMonthAvailabilityService {
   constructor(
-    @inject('IAppointmentsRepository')
+    @inject('AppointmentsRepository')
     private appointmentsRepository: IAppointmentsRepository
   ){}
 
