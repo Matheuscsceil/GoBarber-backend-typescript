@@ -40,3 +40,5 @@ yarn test
 yarn add nodemailer
 yarn add -D @types/nodemailer
 yarn add handlebars
+
+yarn eslint ./src --ext .ts --fix
