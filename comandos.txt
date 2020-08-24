@@ -49,3 +49,6 @@ docker run --name mongodb -p 27017:27017 -d -t mongo
 mongodb://localhost:27017
 
 yarn add celebrate
+
+yarn add dotenv
+git rm --cached ormconfig.json
