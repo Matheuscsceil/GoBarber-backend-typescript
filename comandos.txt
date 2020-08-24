@@ -54,3 +54,5 @@ yarn add dotenv
 git rm --cached ormconfig.json
 
 yarn add class-transformer
+
+yarn add aws-sdk
