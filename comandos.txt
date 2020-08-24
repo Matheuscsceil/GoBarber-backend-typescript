@@ -52,3 +52,5 @@ yarn add celebrate
 
 yarn add dotenv
 git rm --cached ormconfig.json
+
+yarn add class-transformer
