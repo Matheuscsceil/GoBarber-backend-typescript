@@ -42,3 +42,8 @@ yarn add -D @types/nodemailer
 yarn add handlebars
 
 yarn eslint ./src --ext .ts --fix
+
+yarn add mongodb
+yarn add -D @types/mongodb
+docker run --name mongodb -p 27017:27017 -d -t mongo
+mongodb://localhost:27017
