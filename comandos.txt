@@ -62,3 +62,7 @@ yarn add mime
 docker run --name redis -p 6379:6379 -d -t redis:alpine
 yarn add ioredis
 yarn add @types/ioredis -D
+
+yarn add rate-limiter-flexible
+yarn add redis
+yarn add -D @types/redis
