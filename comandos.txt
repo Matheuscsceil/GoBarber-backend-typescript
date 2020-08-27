@@ -66,3 +66,6 @@ yarn add @types/ioredis -D
 yarn add rate-limiter-flexible
 yarn add redis
 yarn add -D @types/redis
+
+yarn add @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-typescript babel-plugin-module-resolver -D
+yarn add -D babel-plugin-transform-typescript-metadata @babel/plugin-proposal-decorators @babel/plugin-proposal-class-properties
