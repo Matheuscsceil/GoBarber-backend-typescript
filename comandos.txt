@@ -58,3 +58,7 @@ yarn add class-transformer
 yarn add aws-sdk
 
 yarn add mime
+
+docker run --name redis -p 6379:6379 -d -t redis:alpine
+yarn add ioredis
+yarn add @types/ioredis -D
