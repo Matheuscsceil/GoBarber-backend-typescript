@@ -69,3 +69,7 @@ yarn add -D @types/redis
 
 yarn add @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-typescript babel-plugin-module-resolver -D
 yarn add -D babel-plugin-transform-typescript-metadata @babel/plugin-proposal-decorators @babel/plugin-proposal-class-properties
+
+docker run -d --name postgres -e POSTGRESQL_PASSWORD=0d036a71ba3a0b99996e8deefe31a437 -e POSTGRESQL_USERNAME=postgres -e POSTGRESQL_DATABASE=cirio -p 35432:5432 bitnami/postgresql:latest
+mudar src para dist em ormconfig.json
+./node_modules/.bin/typeorm migration:run
